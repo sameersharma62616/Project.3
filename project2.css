@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;    
+	background-image: url("mountain.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.Center_box{
+	width: 420px;
+	background: transparent;
+	border-radius: 2px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, .2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	color: purple;
+	padding-bottom: 180px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 30px;
+	border-radius: 10px;
+}
+.login{
+	color: white;
+	font-weight: 800;
+	font-size: 36px;
+	text-align: center;
+}
+.username{
+	height: 50px;
+	width: 394px;
+	background: transparent;
+	margin-top: 30px;
+	border:solid;
+	border width: 2px;
+	border-color: rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	margin-right: 10px;
+	padding-left: 20PX;
+}
+.password{
+	height: 50px;
+	width: 394px;
+	background: transparent;
+	margin-top: 30px;
+	border:solid;
+	border width: 2px;
+	border-color: rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	margin-right: 10px;
+	padding-left: 20PX;
+}
+.people{
+	color: white;
+	position: absolute;
+	right: 745px;
+	top: 392px;
+}
+.lock{
+	color: white;
+	position: absolute;
+	right: 745px;
+	top: 478px;
+}
+.remember{
+	color: white;
+    position: absolute;
+    bottom: 410px;
+}
+.forget{
+	position: absolute;
+	right: 728px;
+	bottom: 410px;
+	text-decoration: none;
+	color: white;
+}
+.loginn{
+	height: 50px;
+	width: 420px;
+	border-radius: 40px;
+	position: absolute;
+	bottom: 340px;
+	cursor: pointer;
+}
+.account{
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	bottom: 300px;
+	right: 822px;
+}
+.resister{
+	text-decoration: none;
+	color: white;
+	font-weight: 800;
+}
